@@ -6,7 +6,7 @@
     --header-height: 3rem;
     --font-semi: 600;
     --hue-color: 23;
---first-color: hsl(var(--hue-color), 58%, 60%);
+    --first-color: hsl(var(--hue-color), 58%, 60%);
     --second-color: hsl(var(--hue-color), 56%, 12%);
     --body-font: "Poppins", sans-serif;
     --big-font-size: 2rem;
@@ -206,6 +206,11 @@ img {
     color: var(--first-color);
 }
 
+.navword {
+    color: var(--first-color);
+    font-size: 20px;
+}
+
 .home__social {
     display: flex;
     flex-direction: column;
@@ -271,7 +276,7 @@ img {
     border-radius: 0.5rem;
 }
 
-.about__text a{
+.about__text a {
     text-decoration: underline;
     color: black;
 }
@@ -390,7 +395,7 @@ img {
 
 /* ===== FOOTER =====*/
 .footer {
-    background-color:#CF9064;
+    background-color: #CF9064;
     color: #fff;
     text-align: center;
     font-weight: var(--font-semi);
@@ -417,52 +422,52 @@ img {
 }
 
 .graphics-course {
-  padding: 50px 20px;
-  background-color: #f9f9f9;
+    padding: 50px 20px;
+    background-color: #f9f9f9;
 }
 
 .graphics-content {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
 }
 
 .graphics-content img {
-  max-width: 200px;
-  width: 100%;
-  border-radius: 12px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    max-width: 200px;
+    width: 100%;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .graphics-text {
-  max-width: 600px;
-  font-size: 1.1rem;
-  color: #444;
-  line-height: 1.6;
+    max-width: 600px;
+    font-size: 1.1rem;
+    color: #444;
+    line-height: 1.6;
 }
 
 
 
 /* ✅ Responsive Styles */
 @media (max-width: 768px) {
-  .graphics-course {
-    padding: 30px 15px;
-  }
+    .graphics-course {
+        padding: 30px 15px;
+    }
 
-  .graphics-content {
-    flex-direction: column;
-    text-align: center;
-  }
+    .graphics-content {
+        flex-direction: column;
+        text-align: center;
+    }
 
-  .graphics-text {
-    font-size: 1rem;
-  }
+    .graphics-text {
+        font-size: 1rem;
+    }
 
-  .graphics-course h2 {
-    font-size: 2rem;
-  }
+    .graphics-course h2 {
+        font-size: 2rem;
+    }
 }
 
 /* ===== MEDIA QUERIES=====*/
